@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit-Profile-Site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="box">
+    <img class="logo" src="imgs/logo.svg" alt="">
+    <img class="header-icons home-icon" src="imgs/home-icon.svg" alt="">
+    <img class="header-icons notification-icon" src="imgs/notifications-icon.svg" alt="">
+    <img class="header-icons calendar-icon" src="imgs/calendar-icon.svg" alt="">
+    <img class="header-icons showchart-icon" src="imgs/showchart-icon.svg" alt="">
+    <img class="header-icons person-icon" src="imgs/person-icon.svg" alt="">
+    <img class="icon" src="imgs/configuration-icon.svg" alt="">
+  </header>
+
+  <main>
+    <div class="line">
+      <p class="p">Esto es un div</p>
+    </div>
+      <!--Settings Section-->
+    <img class="arrow-left" src="imgs/arrowleft-icon.svg" alt="">
+    <div>
+      <p class="base-p settings-p">
+        settings
+      </p>
+    </div>
+    <div>
+      <div class="settings-margin">
+        <img class="settings-icons edit-icon" src="imgs/edit-icon.svg" alt="">
+        <p class="base-p edit-p">
+          Edit profile
+        </p>
+      </div>
+      <div>
+        <img class="settings-icons notification-icon-gray" src="imgs/notification-icon-gray.svg" alt="">
+        <p class="base-p gray-p">
+          Notification
+        </p>
+      </div>
+      <div>
+        <img class="settings-icons lock-icon" src="imgs/lock-icon.svg" alt="">
+        <p class="base-p lock-p gray-p">
+          Security
+        </p> 
+      </div>
+      <div>
+        <img class="settings-icons settings-icon-gray" src="imgs/settings-icon-gray.svg" alt="">
+        <p class="base-p settings-gray-p gray-p">
+          Appearance
+        </p>
+      </div>
+      <div>
+        <img class="settings-icons help-icon" src="imgs/help-icon.svg" alt="">
+        <p class="base-p help-p gray-p">
+          Help
+        </p>
+      </div>
+    </div>
+
+  <!--Profile Section-->
+    <div>
+      <img class="profile-notification" src="imgs/profile-notification.svg" alt="">
+      <h1 class="profile-h1">Edit profile</h1>
+      <img class="profile" src="imgs/profile-icon.svg" alt="">
+    </div>
+    <form class="">
+      <div class="name display">
+        <label class="label" for="name">First Name</label>
+        <input class="input-form" type="text" id="name" name="name" placeholder ="Mehrab" required>
+      </div>
+      <div class="display last-name">
+        <label class="label" for="name">Last Name</label>
+        <input class="input-form" type="text" id="last-name" name="last-name" placeholder ="Bozorgi" required>
+      </div>
+      <div class="display large-form">
+        <label class="label" for="email">Email</label>
+        <input class="input-form input-big" type="email" name="email" id="email" placeholder ="Mehrabbozorgi.business@gmail.com" required>
+        <img class="checkbox" src="imgs/check-icon.svg" alt="">
+      </div>
+      <div class="display large-form">
+        <label class="label" for="address">Address</label>
+        <input class="input-form input-big" type="address" name="address" id="address" placeholder ="33062 Zboncak isle" required>
+      </div>
+      <div class="display large-form">
+        <label class="label" for="contact">Contact Number</label>
+        <input class="input-form input-big" type="tel" name="contact" id="contact" placeholder ="58077.79" required>
+      </div>
+      <div class="display-flex">
+        <div class="display select-city">
+          <label class="label">City</label>
+          <select class="input-form select-form text-color" name="choice">
+            <option value="">Mehrab</option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
+        <div class="display state-select">
+          <label class="label">State</label>
+          <select class="input-form select-form text-color" name="choice">
+            <option value="">Bozorgi</option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+        </div>
+      </div>
+      <div class="display large-form">
+        <label class="label" for="email">Password</label>
+        <input class="input-form input-big" type="password" name="email" id="email" placeholder ="sbdfbnd65sfdvb s" required>
+        <img class="checkbox" src="imgs/check-icon.svg" alt="">
+      </div>
+      <div class="btns">
+        <button class="cancel">Cancel</button>
+        <button class="save">Save</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
